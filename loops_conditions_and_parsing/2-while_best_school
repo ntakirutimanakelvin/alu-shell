@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# this the second loops condition and parsing
+count=1
+while ((count<=10)); do
+      echo "Best School"
+      ((count++))
+done
