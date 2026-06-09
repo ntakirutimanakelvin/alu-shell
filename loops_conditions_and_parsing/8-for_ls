@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# loop number eight
+for file in *; do
+    echo "${file#*-}"
+done
+
